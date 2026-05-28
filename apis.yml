@@ -1,0 +1,32 @@
+aid: openligadb
+name: OpenLigaDB
+description: "Crowd sourced sports league results"
+url: https://www.openligadb.de
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Sports & Fitness"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Sports And Fitness
+  - Public APIs
+apis:
+  - name: OpenLigaDB
+    description: "Crowd sourced sports league results"
+    humanURL: https://www.openligadb.de
+    baseURL: https://www.openligadb.de
+    tags:
+      - Sports And Fitness
+    properties:
+      - type: Documentation
+        url: https://www.openligadb.de
+common:
+  - type: Website
+    url: https://www.openligadb.de
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
